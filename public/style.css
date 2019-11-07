@@ -1,0 +1,23 @@
+.content {
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product__box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 226px;
+    margin: 20px;
+    background-color: thistle;
+    align-items: center;
+}
+
+.btn {
+    background-color: #19ff30;
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+    text-decoration: none;
+}
