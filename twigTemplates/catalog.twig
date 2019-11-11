@@ -1,0 +1,13 @@
+<h2>Каталог</h2>
+
+
+<div style="display: flex">
+    {% for item in items %}
+        <div style="border: #ff2525 1px solid; width: 150px; margin: 5px; padding: 5px">
+            <img src="/img/{{ item.image }}" alt="" width="100"><br>
+            <a href="#"><h3>{{ item.name }}</h3></a>
+            <p>{{ item.description }}</p>
+            <p>Цена: {{ item.price }}</p>
+        </div>
+    {% endfor %}
+</div>
