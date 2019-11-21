@@ -1,0 +1,11 @@
+{
+    "require": {
+        "phpunit/phpunit": "^7.5",
+        "robmorgan/phinx": "^0.11.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": ""
+        }
+    }
+}
